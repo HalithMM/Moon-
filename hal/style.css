@@ -1,0 +1,23 @@
+*
+    {
+        padding: 0; 
+        margin: 0; 
+        box-sizing: border-box;
+        }
+        body{
+            background:rgb(214,214,214);
+        }
+        • container 
+            { 
+               position: relative; 
+        }
+            .  container . center { 
+        background: #b67d8f; 
+        height: 100px; 
+        width: 200px; 
+        position: fixed; 
+        top: 50%; 
+        Left: 50%； 
+        margin-top: -50px;
+         margin-Left: -100px;
+         }

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Center Div with Tailwind CSS</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <script type="text/javascript" src="hk.js"></script>
+    <script src="jquery.js"></script>
+    <style>
+        .bg-image {
+            background-image: url('https://images.unsplash.com/photo-1603796844818-f77dd76776a6?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+            background-size: cover;
+            background-position: center;
+            min-height: 100vh; /* Full height */
+        }
+        .slide {
+    display: none;
+  }
+  .text-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    text-align: center;
+  }
+    </style>
+</head>
+<body>
+    <div class="bg-image flex items-center justify-center text-white">
+        <script>
+            alert('Hey You!!! \n               This may surprise you Before that, I apologize because I know this was an incorrect approach to the Wonderful Women ');
+            </script>
+        <div class="absolute top-0 left-0 p-4">
+            <h1 class="">As-salamu alaykum <b class="text-3xl">Sammy</b></h1>
+            <p class="pt-2">These are the stuff I wanna tell to you</p>
+        </div>
+        <div class="flex justify-center items-end h-screen">
+            <div class="absolute bottom-10 text-center">
+            <a class="px-4 py-2 bg-pink-500 text-white rounded hover:bg-pink-900" href="">This was my  Virtual clip </a>
+          </div>
+          </div>
+        <div class="flex items-center justify-center min-h-screen">
+            <div class="absolute inset-0 flex items-center justify-center">
+              <div id="slideshow" class="max-w-lg">
+                <div class="slide">
+                  <img src="" alt="">
+                  <div class="text-overlay">
+                    <p class="text-lg">I am writing to express feelings that have been growing within me, feelings that I cannot keep silent any longer.
+                        I knew there was something special about you, something that drew me
+                        </p>
+                  </div>
+                </div>
+                <div class="slide hidden">
+                  <img src="" alt="">
+                  <div class="text-overlay">
+                    <p class="text-lg">your kindness, your intelligence, your beautiful spirit, it makes me fall in love with you more and more.</p>
+                  </div>
+                </div>
+                <div class="slide hidden">
+                    <img src="" alt="">
+                    <div class="text-overlay">
+                      <p class="text-lg">I understand if this proposition may come as a surprise, You are a treasure, if you are in my life i'm more blessed
+                        alhamdulillah
+                    </p>
+                    </div>
+                  </div>
+                  <div class="slide hidden">
+                    <img src="" alt="">
+                    <div class="text-overlay">
+                      <p class="text-lg">Will you be my halal Love🤌?</p>
+                    </div>
+                  </div>
+                <!-- Add more slides as needed -->
+              </div>
+            </div>
+          </div>
+          <script>
+            let slideIndex = 0;
+            showSlides();
+          
+            function showSlides() {
+              const slides = document.getElementsByClassName("slide");
+              for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {
+                slideIndex = 4;
+              }
+              slides[slideIndex - 1].style.display = "block";
+              setTimeout(showSlides, 8000);
+            }
+          </script>
+    </div>
+    
+
+</body>
+</html>
